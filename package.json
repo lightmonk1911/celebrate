@@ -1,7 +1,7 @@
 {
-  "name": "template",
+  "name": "celebrate",
   "version": "1.0.0",
-  "description": "dev tools training",
+  "description": "celebrate",
   "private": true,
   "scripts": {
     "test": "jest",
@@ -13,7 +13,7 @@
     "url": "git+https://github.com/lightmonk1911/htc-training.git"
   },
   "keywords": [
-    "training"
+    "celebrate"
   ],
   "author": "Igor Babenkov",
   "license": "ISC",
