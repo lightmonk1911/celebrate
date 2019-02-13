@@ -7,7 +7,63 @@
     <title>Layout Celebrate</title>
   </head>
   <body>
-    <div class="container" id="root"></div>
+    <div class="container" id="root">
+      <div class="top-panel">
+        <h2 class="top-panel__name">Игорь Бабенков</h2>
+        <div class="top-panel__exit">
+          lightmonk1911<span class="top-panel__exit-icon"></span>
+        </div>
+      </div>
+      <nav class="sidebar">
+        <ul class="sidebar__ul">
+          <li class="sidebar__nav-item"><a href="#">Профиль</a></li>
+          <li class="sidebar__nav-item"><a href="#">Мероприятия</a></li>
+          <li class="sidebar__nav-item"><a href="#">Финансы</a></li>
+          <li class="sidebar__nav-item"><a href="#">Голоса</a></li>
+          <li class="sidebar__nav-item"><a href="#">Услуги</a></li>
+        </ul>
+      </nav>
+      <div class="content">
+        <form class="profile">
+          <div class="form-group">
+            <label class="form-group__label" for="name-input"
+              >Имя на сайте</label
+            >
+            <input
+              class="form-group__input"
+              id="name-input"
+              type="text"
+              value="Игорь Бабенков"
+            />
+            <button class="form-group__submit" type="submit">Сохранить</button>
+          </div>
+          <div class="form-group__label">
+            <p>Сменить пароль</p>
+            <label class="form-group__label" for="password-input"
+              >Старый пароль</label
+            >
+            <input
+              class="form-group__input"
+              id="old-password-input"
+              type="password"
+              value=""
+            />
+            <label class="form-group__label" for="new-password-input"
+              >Новый пароль</label
+            >
+            <input
+              class="form-group__input"
+              id="new-password-input"
+              type="password"
+              value=""
+            />
+            <button class="eform-group__submit" type="submit">
+              Сохранить
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
     <div id="mocha"></div>
   </body>
 </html>
