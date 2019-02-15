@@ -1,2 +1,7 @@
 import './style.css';
-import './cat.png';
+import './form-group.css';
+import './sidebar.css';
+import './content.css';
+import './top-panel.css';
+import './events.css';
+import './event-card.css';

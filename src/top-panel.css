@@ -1,0 +1,13 @@
+.top-panel {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.top-panel__name {
+  margin: 0;
+}
+
+.top-panel__exit {
+  justify-self: end;
+  align-self: center;
+}

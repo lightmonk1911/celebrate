@@ -1,0 +1,34 @@
+.event-card {
+  display: grid;
+  grid-template-columns: 200px auto;
+}
+
+.event-card__brief {
+  position: relative;
+  display: grid;
+  box-sizing: border-box;
+  color: antiquewhite;
+  text-shadow: 3px 3px 3px black;
+  border-radius: 5px;
+  padding: 0.25em;
+  
+  justify-items: center;
+}
+
+.event-card__brief::after {
+  position: absolute;
+  opacity: 0.2;
+  top:0px;
+  left: 0px;
+  content: '';
+  background-image: url('./booz.png');
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.event-card__info {
+  opacity: 1;
+  align-self: center;
+}

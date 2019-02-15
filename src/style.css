@@ -2,3 +2,46 @@
   display: none;
 }
 
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  background-color: wheat;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 3fr 9fr;
+  grid-template-areas: 'top-panel top-panel' 'sidebar content';
+}
+
+.container>* {
+  padding: 0.5em;
+}
+
+.top-panel {
+  grid-area: top-panel;
+}
+
+.sidebar {
+  grid-area: sidebar;
+}
+
+.content {
+  grid-area: content;
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-areas: 'top-panel' 'sidebar' 'content';
+  }
+}
+
+@media screen and (min-width: 870px) {
+  .container {
+    display: grid;
+    grid-template-columns: 200px auto;
+    grid-template-areas: 'top-panel top-panel' 'sidebar content';
+  }
+}
